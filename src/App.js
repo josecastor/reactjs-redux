@@ -1,8 +1,14 @@
 import React from 'react';
+import { BrowserRouter } from 'react-router-dom';
+
+import Route from './routes';
 
 function App() {
   return (
-    <h1>Hello Redux</h1>
+    <BrowserRouter>
+      {/** <Header /> */}
+      <Route />
+    </BrowserRouter>
   );
 }
 
